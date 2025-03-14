@@ -10,7 +10,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # AI Model configs
 AVAILABLE_MODELS = {
-    "Gemini": "gemini-pro",
+    "Gemini": "gemini-1.5-flash",
     "OpenAI": "gpt-3.5-turbo"
 }
 
