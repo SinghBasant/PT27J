@@ -42,7 +42,7 @@ def main():
             )
             
             topic = st.text_input("Topic", placeholder="e.g., Python Programming")
-            num_questions = st.selectbox("Number of Questions", [1, 5, 10])
+            num_questions = st.selectbox("Number of Questions", [5, 1, 10])
             difficulty = st.selectbox("Difficulty🤔Level", ["Easy", "Medium", "Hard"])
             st.session_state.time_limit = st.number_input(
                 "Time⏱️ Limit (minutes)", 
@@ -84,7 +84,7 @@ def main():
         assessment.render_exam_interface()
     else:
         st.title("Whintelz Preps")
-        st.header(" Powered by Whizlabs CoI🧠: Center of Intelligence")
+        st.header(" Powered by Whizlabs 🧠: Center of Intelligence")
         st.write("Configure your assessment parameters in the sidebar to begin.")
         
         st.info("""
