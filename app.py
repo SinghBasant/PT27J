@@ -37,7 +37,7 @@ def main():
             st.session_state.ai_model = st.selectbox(
                 "Select the AI Model",
                 options=["Gemini", "OpenAI"],
-                index=0,  # Gemini is default
+                index=1,  # OpenAI is default
                 help="Choose the AI model for generating questions"
             )
             
