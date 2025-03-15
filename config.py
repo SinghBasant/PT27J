@@ -14,4 +14,4 @@ AVAILABLE_MODELS = {
     "OpenAI": "gpt-3.5-turbo"
 }
 
-DEFAULT_MODEL = "Gemini"
+DEFAULT_MODEL = "OpenAI"
